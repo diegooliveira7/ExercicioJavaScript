@@ -3,7 +3,7 @@
 
 
 
-window.exercise06 = function() {
+window.exercise06 = function() {//Verificação se está ou não exibida
     var status = document.getElementById('group6').style.display;
     if(status === "none"){
         document.getElementById('group6').style.display = 'block';
@@ -13,6 +13,8 @@ window.exercise06 = function() {
     }
 };
 
+
+//Função que soma as idades e retorna a soma 
 function check6(){
     let group = [
         {id: 1, first_name: 'Juca', last_name: 'Da Silva', age: 42},

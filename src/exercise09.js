@@ -3,7 +3,7 @@
 
 
 
-window.exercise09 = function() {
+window.exercise09 = function() {//Verificação se está ou não exibida
     var status = document.getElementById('group9').style.display;
     if(status === "none"){
         document.getElementById('group9').style.display = 'block';
@@ -14,6 +14,7 @@ window.exercise09 = function() {
     
 };
 
+//Função que ordena os mebros da lista, para facilitar a programação resolvi usar o método bubble sort
 function check9(){
     let group = [
         {id: 1, first_name: 'Juca', last_name: 'Da Silva', age: 42},

@@ -3,7 +3,7 @@
 
 
 
-window.exercise05 = function() {
+window.exercise05 = function() {//Verificação se está ou não exibida
     var status = document.getElementById('group5').style.display;
     if(status === "none"){
         document.getElementById('group5').style.display = 'block';
@@ -13,6 +13,7 @@ window.exercise05 = function() {
     }
 };
 
+//função que imprime uma saudação para o usuário
 function check5(){
     let group = [
         {id: 1, first_name: 'Juca', last_name: 'Da Silva', age: 42},
@@ -22,11 +23,8 @@ function check5(){
     ]
     let name = "";
     for (let i = 0; i < group.length; i++) {
-
+        //atribuição de string 
         name = name + " " + "Olá, "+group[i].first_name +" "+group[i].last_name + "<br>";
-        
-
-        console.log("Olá, "+group[i].first_name +" "+group[i].last_name);
     }
     document.getElementById('camp5').innerHTML = name;
 }

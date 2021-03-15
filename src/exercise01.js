@@ -1,6 +1,6 @@
 
 
-window.exercise01 = function() {
+window.exercise01 = function() {//Verificação se está ou não exibida
     var status = document.getElementById('group1').style.display;
     if(status === "none"){
         document.getElementById('group1').style.display = 'block';
@@ -10,6 +10,7 @@ window.exercise01 = function() {
 
 };
 
+//Função que verifica os campos 
 function Check1(){
     var camp1 = document.getElementById('camp1').value;
     var camp2 = document.getElementById('camp2').value;

@@ -2,7 +2,7 @@
 //E.7 Encontre o primeiro objeto que possui uma pessoa com a idade menor que 25 e imprima seu nome. 
 //Caso não encontre, imprima que nenhum resultado foi encontrado.
 
-window.exercise07 = function() {
+window.exercise07 = function() {//Verificação se está ou não exibida
     
     var status = document.getElementById('group7').style.display;
     if(status === "none"){

@@ -1,6 +1,6 @@
 //E.8 Imprima todos os elementos em que a idade é menor que 30.
 
-window.exercise08 = function() {
+window.exercise08 = function() {//Verificação se está ou não exibida
 
     var status = document.getElementById('group8').style.display;
     if(status === "none"){
@@ -11,6 +11,7 @@ window.exercise08 = function() {
     }
 };
 
+//Função para descobrir as pessoas que tem a idade menor que 30 anos.
 function check8(){
     
     let group = [

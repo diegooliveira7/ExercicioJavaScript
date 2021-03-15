@@ -4,7 +4,7 @@
 //‘ENDERECO, NUMERO, CIDADE/ESTADO’. 
 //Utilize a fetch API para realizar a requisição.
 
-window.exercise04 = function() {
+window.exercise04 = function() { //Verificação se está ou não exibida
     var status = document.getElementById('group4').style.display;
     if(status === "none"){
         document.getElementById('group4').style.display = 'block';
@@ -13,6 +13,8 @@ window.exercise04 = function() {
     }
 };
 
+
+//frunção que recebe os dados recebidos pela api 
 function search(){
     let cep = document.getElementById('campC4').value.replace("-","");
     const options = {

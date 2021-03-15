@@ -32,6 +32,7 @@ function check10(){
     printMovies(y);
 }
 
+//Função receb dois arrays e cria outro incluindo os autores
 function moviesAc(movies, actors){
     let y = [];
     for(let movie in movies){
@@ -48,7 +49,8 @@ function moviesAc(movies, actors){
     return y;
 }
 
-function printMovies(movies){
+//Essa função fica somente para imprimir os dados na tela
+function printMovies(movies){ 
     let text = "";
     for (let i = 0; i < movies.length; i++) {
         let text_ac = "";
